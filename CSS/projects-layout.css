@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding: 3em;
+}
+
+.projectsMainBody {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin: 0 auto;
+    margin-left: 10px;
+    width: 95%;
+    padding: 1em;
+    color: #516C8C;
+    font-size: 1.3em;
+    text-align: center;
+    
+}
+
+.VPS {
+    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 300px;
+    height:300px;
+    display:block;
+    background:transparent url(/images/Virtual\ Pets\ Amok\ Resized.png) center top no-repeat;
+   }
+   
+   .VPS:hover {
+      background-image: url(/images/Virtual\ Pets\ Amok\ Project\ Screenshot\ Resized.png);
+   }
+
+.VirtualPetShelter {
+
+    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 300px;
+    height:300px;
+    display:block;
+    background:transparent url(/images/Virtual\ Pet\ Shelter.png) center top no-repeat;
+   }
+
+   .VirtualPetShelter:hover {
+    background-image: url(/images/Virtual\ Pet\ Shelter\ Project\ Screenshot\ Resized.png);
+ }
+
+ .Payroll {
+
+    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 300px;
+    height:300px;
+    display:block;
+    background:transparent url(/images/Payroll\ Resized.png) center top no-repeat;
+   }
+
+   .Payroll:hover {
+    background-image: url(/images/Payroll\ Screenshot\ Resized.png);
+ }

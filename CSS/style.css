@@ -1,5 +1,10 @@
 body{
     margin: 0px;
+    background-image: linear-gradient(to bottom, #879D91 42%, #879D91 5%, #ECE1E0 50%);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Noto Sans HK', sans-serif;
 }
 
 .container{
@@ -7,12 +12,12 @@ body{
     grid-template-columns: 1fr;
 }
 
+/* Name & Line */
 .name {
     margin-left: 10px;
     font-size: 2.8em;
     text-transform: uppercase;
     color: #ECE1E0;
-    text-decoration-line: ;
 }
 
 .line {
@@ -22,50 +27,3 @@ body{
     border-radius: 2010px;
     width: 95%;
   }
-
-/* Nav Styles */
-.nav-wrapper {
-    display:flex;
-    justify-content: space-between;
-    padding: 10px;
-
-}
-
-.left-side {
-    display: flex;  
-}
-
-.nav-wrapper > .left-side > div {
-    margin-right: 25px;
-    font-size: 0.9em;
-    text-transform: uppercase;
-}
-
-/* .right-side { 
-    display: flex;
-    font-size: 1.5em;
-} */
-
-.brand {
-    color: #ECE1E0;
-}
-
-.nav-link-wrapper {
-    height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
-
-.nav-link-wrapper a{
-    color: #ECE1E0;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.nav-link-wrapper:hover {
-    border-bottom: 1px solid #D0A48B;
-}  
-
-.nav-link-wrapper a:hover {
-    color: #ECE1E0;
-}  

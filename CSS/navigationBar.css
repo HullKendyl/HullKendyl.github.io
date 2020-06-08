@@ -1,0 +1,37 @@
+.nav-wrapper {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 1%;
+
+}
+
+.left-side {
+    display: flex;  
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 5em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #ECE1E0;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1.5px solid #D0A48B;
+}  
+
+.nav-link-wrapper a:hover {
+    color: #ECE1E0;
+}  

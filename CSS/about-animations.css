@@ -1,0 +1,74 @@
+@keyframes changeImage1 {
+    0%,
+    20%,
+    100% {
+      opacity: 1;
+      display: inherit;
+    }
+    25%,
+    95% {
+      opacity: 0;
+      display: none;
+    }
+  }
+
+  @keyframes changeImage2 {
+    0%,
+    20%,
+    50%,
+    100% {
+      opacity: 0;
+      display: none;
+    }
+    25%,
+    45% {
+      opacity: 1;
+      display: inherit;
+    }
+  }
+
+  @keyframes changeImage3 {
+    0%,
+    45%,
+    75%,
+    100% {
+      opacity: 0;
+      display: none;
+    }
+    50%,
+    70% {
+      opacity: 1;
+      display: inherit;
+    }
+  }
+
+  @keyframes changeImage4 {
+    0%,
+    70%,
+    100% {
+      opacity: 0;
+      display: none;
+    }
+    75%,
+    95% {
+      opacity: 1;
+      display: inherit;
+    }
+  }
+
+  .bioPic1{
+    background-image: url("/images/Kendyl-HaydenRunFalls.jpg");
+    animation: changeImage1 12s ease infinite;
+  }
+  .bioPic2 {
+    background-image: url("/images/Kendyl-Gus-HockingHills.jpg");
+    animation: changeImage2 12s ease infinite;
+  }
+  .bioPic3 {
+    background-image: url("/images/Kendyl-Dino.jpg");
+    animation: changeImage3 12s ease infinite;
+  }
+  .bioPic4 {
+    background-image: url("/images/San\ Diego\ El\ Cabrio\ Monument\ Overlook.jpg");
+    animation: changeImage4 12s ease infinite;
+  }
