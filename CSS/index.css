@@ -78,9 +78,7 @@ h2 {
   width: 70%;
   text-align: center;
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  
 }
 
 .about {
@@ -102,6 +100,9 @@ h2 {
 .about p {
   color: #577b87;
   font-size: 26pt;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .projects {
@@ -139,6 +140,8 @@ h2 {
 }
 
 .display-project {
+  display: flex;
+  flex-direction: column;
   width: 45%;
   height: 100%;
   margin-right: 30px;
@@ -146,19 +149,26 @@ h2 {
   color: #6f5e76cc;
 }
 
+.project-text {
+  position: relative;
+}
+
 .display-project h4 {
-  margin-top: 10px;
+  display: block;
+  font-size: 12pt;
+  margin-top: 5px;
   font-family: "Raleway Bold";
 }
 
 .display-project h6 {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .display-project p {
   width: 100%;
   height: 100%;
-  margin-top: 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   text-align: justify;
 }
 
@@ -171,6 +181,14 @@ h2 {
   outline: none;
 }
 
+.image-view {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
 .image-view:hover .image-thumbnail {
   z-index: 1;
   opacity: 1;
@@ -179,14 +197,6 @@ h2 {
 
 .image-view:hover .overlay {
   display: block;
-}
-
-.image-view {
-  display: block;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  cursor: pointer;
 }
 
 .overlay {
