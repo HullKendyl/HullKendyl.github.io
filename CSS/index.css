@@ -1,0 +1,280 @@
+@font-face{
+  font-family: "Raleway Bold";
+  src: url(/Fonts/Raleway/Raleway-Bold.ttf) format("truetype");
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nav-item a {
+  margin-left: 5em;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #83a8af;
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav-item a:hover {
+  margin-left: 5em;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #6f5e76;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-side {
+  background-image: url(/images/Headshot-SanDiego.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35%;
+  height: 90vh;
+  margin-left: 3vw;
+}
+
+h1 {
+  text-align: right;
+  margin-top: 69vh;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  color: white;
+  text-shadow: 0px 0px 20px black, 0px 0px 20px black;
+}
+
+h2 {
+  text-align: right;
+  margin-right: 50px;
+  margin-top: 10px;
+  color: white;
+  text-shadow: 0px 0px 20px black, 0px 0px 20px black;
+}
+
+.right-side {
+  width: 60%;
+  height: 90vh;
+  overflow-y: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.right-side p{
+  width: 70%;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.about {
+  height: 90vh;
+  top: 0;
+  position: relative;
+  background-color: #add3e9;
+}
+
+.about span {
+    position: absolute;
+    top: 43%;
+    left: -70px;
+    color: #6F5E76cc;
+    font-size: 50pt;
+    transform: rotate(-90deg);
+}
+
+.about p {
+  color: #577b87;
+  font-size: 26pt;
+}
+
+.projects {
+  height: auto;
+  top: 0;
+  position: relative;
+  background-color: white;
+}
+
+.projects span {
+  position: absolute;
+  top: 43%;
+  left: -115px;
+  color: #6F5E76cc;
+  font-size: 50pt;
+  transform: rotate(-90deg);
+}
+
+.line {
+  display: block;
+  width: 90%;
+  height: 3px;
+  border-radius: 5px;
+  background-color:#6F5E76cc;
+  margin: 0 auto;
+}
+
+.row-images {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+  margin-top: 5%;
+  margin-left: 120px;
+}
+
+.display-project{
+  width: 45%;
+  height: 100%;
+  margin-right: 30px;
+  position: relative;
+  color: #6F5E76cc;
+}
+
+.display-project h4 {
+  margin-top: 10px;
+  font-family: "Raleway Bold";
+}
+
+.display-project h6 {
+  margin-top: 10px;
+}
+
+.display-project p {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  text-align:justify;
+}
+
+.image-thumbnail {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}
+
+.image-view:hover .image-thumbnail{
+  z-index: 1;
+  opacity: 1;
+  filter: blur(5px); 
+}
+
+.image-view:hover .overlay {
+  display:block;
+}
+
+.image-view {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  box-sizing: content-box;
+  }
+
+.overlay span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #6f5e76f6;
+  color: white;
+  font-weight: bolder;
+  font-size: 22pt;
+  padding: 10px;
+}
+
+.resume {
+  height: 90vh;
+  top: 0;
+  position: relative;
+  background-color: white;
+}
+
+.resume span {
+  position: absolute;
+  top: 43%;
+  left: -80px;
+  color: #6F5E76cc;
+  font-size: 50pt;
+  transform: rotate(-90deg);
+}
+
+.resume-thumbnail {
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5vh;
+  margin-left: 25%;
+  box-shadow: 5px 5px 10px #6F5E76cc;
+}
+
+.contact {
+  height: 90vh;
+  top: 0;
+  position: relative;
+  background-color: white;
+}
+
+.contact .section-title-span {
+  position: absolute;
+  top: 43%;
+  left: -95px;
+  color: #6F5E76cc;
+  font-size: 50pt;
+  transform: rotate(-90deg);
+}
+
+.row-icons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.image-icon {
+  width: auto;
+  height: 200px;
+  margin: 15px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.image-icon:hover {
+  margin-top: -50px;
+
+}
+
