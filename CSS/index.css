@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: "Raleway Bold";
   src: url(/Fonts/Raleway/Raleway-Bold.ttf) format("truetype");
 }
@@ -74,7 +74,7 @@ h2 {
   scroll-behavior: smooth;
 }
 
-.right-side p{
+.right-side p {
   width: 70%;
   text-align: center;
   position: relative;
@@ -91,12 +91,12 @@ h2 {
 }
 
 .about span {
-    position: absolute;
-    top: 43%;
-    left: -70px;
-    color: #6F5E76cc;
-    font-size: 50pt;
-    transform: rotate(-90deg);
+  position: absolute;
+  top: 43%;
+  left: -70px;
+  color: #6f5e76cc;
+  font-size: 50pt;
+  transform: rotate(-90deg);
 }
 
 .about p {
@@ -115,7 +115,7 @@ h2 {
   position: absolute;
   top: 43%;
   left: -115px;
-  color: #6F5E76cc;
+  color: #6f5e76cc;
   font-size: 50pt;
   transform: rotate(-90deg);
 }
@@ -125,7 +125,7 @@ h2 {
   width: 90%;
   height: 3px;
   border-radius: 5px;
-  background-color:#6F5E76cc;
+  background-color: #6f5e76cc;
   margin: 0 auto;
 }
 
@@ -138,12 +138,12 @@ h2 {
   margin-left: 120px;
 }
 
-.display-project{
+.display-project {
   width: 45%;
   height: 100%;
   margin-right: 30px;
   position: relative;
-  color: #6F5E76cc;
+  color: #6f5e76cc;
 }
 
 .display-project h4 {
@@ -159,7 +159,7 @@ h2 {
   width: 100%;
   height: 100%;
   margin-top: 40px;
-  text-align:justify;
+  text-align: justify;
 }
 
 .image-thumbnail {
@@ -171,14 +171,14 @@ h2 {
   outline: none;
 }
 
-.image-view:hover .image-thumbnail{
+.image-view:hover .image-thumbnail {
   z-index: 1;
   opacity: 1;
-  filter: blur(5px); 
+  filter: blur(5px);
 }
 
 .image-view:hover .overlay {
-  display:block;
+  display: block;
 }
 
 .image-view {
@@ -198,7 +198,7 @@ h2 {
   position: absolute;
   text-align: center;
   box-sizing: content-box;
-  }
+}
 
 .overlay span {
   position: absolute;
@@ -225,7 +225,7 @@ h2 {
   position: absolute;
   top: 43%;
   left: -80px;
-  color: #6F5E76cc;
+  color: #6f5e76cc;
   font-size: 50pt;
   transform: rotate(-90deg);
 }
@@ -237,7 +237,7 @@ h2 {
   text-align: center;
   margin-top: 5vh;
   margin-left: 25%;
-  box-shadow: 5px 5px 10px #6F5E76cc;
+  box-shadow: 5px 5px 10px #6f5e76cc;
 }
 
 .contact {
@@ -251,7 +251,7 @@ h2 {
   position: absolute;
   top: 43%;
   left: -95px;
-  color: #6F5E76cc;
+  color: #6f5e76cc;
   font-size: 50pt;
   transform: rotate(-90deg);
 }
@@ -270,11 +270,9 @@ h2 {
   height: 200px;
   margin: 15px;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .image-icon:hover {
   margin-top: -50px;
-
 }
-
