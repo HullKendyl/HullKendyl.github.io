@@ -286,3 +286,8 @@ h2 {
 .image-icon:hover {
   margin-top: -50px;
 }
+
+footer {
+  margin-left: 3vw;
+  font-family: "Raleway Bold";
+}
