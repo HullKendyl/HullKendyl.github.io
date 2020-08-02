@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) {
+
+    nav {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .nav-item a {
+        margin-left: 20px;
+        font-size: 10pt;
+        font-weight: lighter;
+        color: #83a8af;
+        text-decoration: none;
+        list-style: none;
+      }
+
+    .nav-item a:hover {
+        margin-left: 20px;
+        font-size: 10pt;
+        font-weight: bolder;
+        color: #6f5e76;
+    }
+  }

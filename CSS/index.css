@@ -20,7 +20,7 @@ nav {
 
 .nav-item a {
   margin-left: 5em;
-  font-size: 30px;
+  font-size: 25pt;
   font-weight: lighter;
   color: #83a8af;
   text-decoration: none;
@@ -28,8 +28,7 @@ nav {
 }
 
 .nav-item a:hover {
-  margin-left: 5em;
-  font-size: 30px;
+  font-size: 25pt;
   font-weight: bolder;
   color: #6f5e76;
 }

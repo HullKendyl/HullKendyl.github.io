@@ -1,0 +1,147 @@
+@media screen and (max-width: 1300px) {
+
+    nav {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .nav-item a {
+        margin-left: 4em;
+        font-size: 20pt;
+        font-weight: lighter;
+        color: #83a8af;
+        text-decoration: none;
+        list-style: none;
+      }
+
+    .nav-item a:hover {
+      margin-left: 4em;
+      font-size: 20pt;
+      font-weight: bolder;
+      color: #6f5e76;
+    }
+
+    .about span {
+      position: absolute;
+      top: 43%;
+      left: -50px;
+      color: #6f5e76cc;
+      font-size: 40pt;
+      transform: rotate(-90deg);
+    }
+    
+    .about p {
+      color: #577b87;
+      font-size: 22pt;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    .projects span {
+      position: absolute;
+      top: 43%;
+      left: -85px;
+      color: #6f5e76cc;
+      font-size: 40pt;
+      transform: rotate(-90deg);
+    }
+
+    .display-project {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      height: 100%;
+      margin-right: 30px;
+      position: relative;
+      color: #6f5e76cc;
+    }
+
+    .display-project h6 {
+      margin-top: 5px;
+      font-size: 8pt;
+    }
+
+    .display-project p {
+      width: 100%;
+      height: 100%;
+      margin-top: 10px;
+      margin-bottom: 30px;
+      text-align: justify;
+      font-size: 11pt;
+    }
+
+    .image-thumbnail {
+      width: 100%;
+      height: 150px;
+      text-align: center;
+      border-radius: 10px;
+      border: 0;
+      outline: none;
+    }
+
+    .overlay span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      border: 2px solid white;
+      border-radius: 5px;
+      background-color: #6f5e76f6;
+      color: white;
+      font-weight: bolder;
+      font-size: 15pt;
+      padding: 10px;
+    }
+
+    .resume span {
+      position: absolute;
+      top: 43%;
+      left: -60px;
+      color: #6f5e76cc;
+      font-size: 40pt;
+      transform: rotate(-90deg);
+    }
+    
+    .resume-thumbnail {
+      height: 80vh;
+      width: 40vw;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 5vh;
+      margin-left: 25%;
+      box-shadow: 5px 5px 10px #6f5e76cc;
+    }
+
+    .contact .section-title-span {
+      position: absolute;
+      top: 43%;
+      left: -75px;
+      color: #6f5e76cc;
+      font-size: 40pt;
+      transform: rotate(-90deg);
+    }
+    
+    .image-icon {
+      width: auto;
+      height: 120px;
+      margin: 15px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+    }
+
+    .image-icon:hover {
+      margin-top: -40px;
+    }
+
+    footer {
+      margin-left: 3vw;
+      font-family: "Raleway Bold";
+      padding: 1%;
+    }
+    
+  }
+  
