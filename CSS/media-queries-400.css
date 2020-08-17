@@ -1,0 +1,218 @@
+@media screen and (max-width: 500px) {
+    
+    nav {
+        position: fixed;
+        text-align: center;
+        justify-content: center;
+        background-color: white;
+        padding: 10px;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 40px;
+    }
+
+    .nav-item a {
+        margin-left: 20px;
+        font-size: 10pt;
+        font-weight: lighter;
+        color: #83a8af;
+        text-decoration: none;
+        list-style: none;
+      }
+
+    .nav-item a:hover {
+        margin-left: 20px;
+        font-size: 10pt;
+        font-weight: bolder;
+        color: #6f5e76;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        scroll-behavior: smooth;
+      }
+
+    .left-side {
+        background-image: url(/images/Headshot-SanDiego.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        margin-left: 0px;
+      }
+
+    h1 {
+      text-align: right;
+      margin-top: 79vh;
+      margin-right: 30px;
+      margin-bottom: 0px;
+      color: white;
+      font-size: 12pt;
+      text-shadow: 0px 0px 20px black, 0px 0px 20px black;
+    }
+    
+    h2 {
+      text-align: right;
+      margin-right: 30px;
+      margin-top: 5px;
+      color: white;
+      font-size: 10pt;
+      text-shadow: 0px 0px 20px black, 0px 0px 20px black;
+    }
+
+    .right-side {
+        width: 100%;
+        height: 90vh;
+        overflow-y: scroll;
+        position: relative;
+        scroll-behavior: smooth;
+      }
+
+    .about span {
+      position: absolute;
+      top: 43%;
+      left: -5px;
+      color: #6f5e76cc;
+      font-size: 20pt;
+      transform: rotate(-90deg);
+    }
+    
+    .about p {
+      color: #577b87;
+      font-size: 16pt;
+      top: 50%;
+      left: 50%;
+      width: 200px;
+      text-align: left;
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    
+    .projects span {
+        position: absolute;
+        top: 43%;
+        left: -25px;
+        color: #6f5e76cc;
+        font-size: 20pt;
+        transform: rotate(-90deg);
+      }
+  
+      .display-project {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-left: 20px;
+        margin-right: 30px;
+        position: relative;
+        color: #6f5e76cc;
+      }
+  
+      .display-project h4 {
+        display: block;
+        font-size: 12pt;
+        margin-top: 5px;
+        margin-left: -70px;
+        font-family: "Raleway Bold";
+        text-decoration: none;
+      }
+  
+      .display-project h6 {
+        width: 250px;
+        margin-top: 5px;
+        margin-left: -70px;
+        font-size: 8pt;
+        text-align: justify;
+      }
+  
+      .display-project p {
+        width: 250px;
+        height: 100%;
+        margin-top: 10px;
+        margin-left: -70px;
+        margin-bottom: 30px;
+        text-align: justify;
+        font-size: 10pt;
+      }
+      
+      .image-thumbnail {
+        width: 250px;
+        height: auto;
+        text-align: center;
+        margin-left: -70px;
+        border-radius: 10px;
+        border: 0;
+        outline: none;
+      }
+  
+      .overlay span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        border: 2px solid white;
+        border-radius: 5px;
+        background-color: #6f5e76f6;
+        color: white;
+        font-weight: bolder;
+        font-size: 12pt;
+        padding: 10px;
+      }
+  
+      .resume {
+          height: 52%;
+      }
+
+      .resume span {
+        position: absolute;
+        top: 50%;
+        left: -20px;
+        color: #6f5e76cc;
+        font-size: 20pt;
+        transform: rotate(-90deg);
+      }
+      
+      .resume-thumbnail {
+        height: auto;
+        width: 250px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 18%;
+        box-shadow: 5px 5px 10px #6f5e76cc;
+      }
+  
+      .contact .section-title-span {
+        position: absolute;
+        top: 47%;
+        left: -20px;
+        margin-bottom: 50px;
+        color: #6f5e76cc;
+        font-size: 20pt;
+        transform: rotate(-90deg);
+      }
+
+      .image-icon {
+        position: relative;
+        width: auto;
+        height: 50px;
+        margin: 12px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+      }
+  
+      .image-icon:hover {
+        margin-top: -40px;
+      }
+  
+      footer {
+        margin-left: 3vw;
+        font-family: "Raleway Bold";
+        padding: 1%;
+      }
+
+}
